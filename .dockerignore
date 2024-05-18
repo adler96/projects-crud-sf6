@@ -1,0 +1,14 @@
+# ignore .git
+.git*
+
+# ignore vendor content
+./vendor/*
+
+# other folders
+./tests 
+./translations
+
+symfony.lock
+phpunit.xml.dist
+importmap.php
+.env.*
